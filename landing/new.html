@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+	<!--- scripts
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+	<script src="js/jquery.ccountdown.js"></script>
+	<script src="js/init.js"></script>
+	<!-- styles-->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/anim.css">
+
+</head>
+	<body>
+
+	<img src="img/blue.jpg" style="width:100%;height:100%;position:absolute;z-index:-1"/>
+	<navbar class="navbar">
+	<div id="googleMap" style="position: absolute;
+height:50%;display:block;top:35%;opacity:0"></div>
+<!--	<div class="drop ribbon">Menu</div>
+	<div class='ribbon' id="firstset">
+    <a href='#' id="" onclick=goto('home')><span id="option1">Home</span></a>
+    <a href='#events' id="events" onclick=goto('events')><span id="option2">Events</span></a>
+   
+
+     <a href='#spons'  id="sponsors" onclick=goto('sponsors')><span id="option3">Sponsors</span></a>
+    <a href='#contact' id="contact" onclick=goto('contact')><span id="option4">Contact</span></a>
+   <a href='#about' id="about" onclick=goto('about')><span id="option5">About</span></a>
+
+</div>-->
+		
+	</navbar>
+	<ul class="form">
+	 <li><a href='#' id="" onclick=goto('home')><span id="option1">Home</span></a></li>
+    <li> <a href='#events' id="events" onclick=goto('events')><span id="option2">Events</span></a></li>
+   
+
+     <li> <a href='#spons'  id="sponsors" onclick=goto('sponsors')><span id="option3">Sponsors</span></a></li>
+    <li> <a href='#contact' id="contact" onclick=goto('contact')><span id="option4">Contact</span></a></li>
+  <li> <a href='#about' id="about" onclick=goto('about')><span id="option5">About</span></a></li>
+
+			</ul>
+	<div>
+		
+		<div id="level">
+		<div id="content">
+			<div id="gears">
+				<div id="gears-static"></div>
+				<div id="gear-system-1">
+					<div class="shadow" id="shadow15"></div>
+					<div id="gear15"></div>
+					<div class="shadow" id="shadow14"></div>
+					<div id="gear14"></div>
+					<div class="shadow" id="shadow13"></div>
+					<div id="gear13"></div>
+				</div>
+				<div id="gear-system-2">
+					<div class="shadow" id="shadow10"></div>
+					<div id="gear10"></div>
+					<div class="shadow" id="shadow3"></div>
+					<div id="gear3"></div>
+				</div>
+				<div id="gear-system-3">
+					<div class="shadow" id="shadow9"></div>
+					<div id="gear9"></div>
+					<div class="shadow" id="shadow7"></div>
+					<div id="gear7"></div>
+				</div>
+				<div id="gear-system-4">
+					<div class="shadow" id="shadow6"></div>
+					<div id="gear6"></div>
+					<div id="gear4"></div>
+				</div>
+				<div id="gear-system-5">
+					<div class="shadow" id="shadow12"></div>
+					<div id="gear12"></div>
+					<div class="shadow" id="shadow11"></div>
+					<div id="gear11"></div>
+					<div class="shadow" id="shadow8"></div>
+					<div id="gear8"></div>
+				</div>
+				<div class="shadow" id="shadow1"></div>
+				<div id="gear1"></div>
+				<div id="gear-system-6">
+					<div class="shadow" id="shadow5"></div>
+					<div id="gear5"></div>
+					<div id="gear2"></div>
+				</div>
+				<div class="shadow" id="shadowweight"></div>
+				<div id="chain-circle"></div>
+				<div id="chain"></div>
+				<div id="weight"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+		
+<div class="logo"><img src="img/logo.png" style="width:80%"></div>
+							
+							<div class="countdown">
+								<div class="ccounter">
+								 <ul class="row count-down">                       
+        <li class="col-md-3 col-sm-6">   
+          <input class="knob days" data-readonly=true data-min="0" data-max="365" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#34aadc" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <span id="days-title" class="clock">Days</span>
+        </li>    
+        <li class="col-md-3 col-sm-6"> 
+          <input class="knob hour" data-readonly=true data-min="0" data-max="24" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#4cd964" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <span id="hours-title" class="clock">Hours</span>
+        </li>    
+        <li class="col-md-3 col-sm-6"> 
+          <input class="knob minute" data-readonly=true data-min="0" data-max="200" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#ff9500" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <span id="mins-title" class="clock">Minutes</span>
+        </li>    
+        <li class="col-md-3 col-sm-6"> 
+          <input class="knob second" data-readonly=true data-min="0" data-max="60" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#ff3b30" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <span id="secs-title" class="clock">Seconds</span>
+        </li>                
+      </ul>        
+								</div>
+							</div>
+
+
+
+
+
+<div class="animated hidden fadeOutDownBig events">
+	
+
+
+</div>
+
+<div class="animated hidden fadeOutDownBig sponsors">
+<div><img src="img/sponsors.png" style="width:80%;left:10%;position:relative"></div>
+
+	<div class="sponslogo1" ><img src="sponsimg/harshaes.jpg"/></div >
+	<div class="sponslogo2" ><img src="sponsimg/AVOCarbon.jpg"/></div>
+	<div class="sponslogo3" ><img src="sponsimg/lg.jpg"/></div>
+	<div class="sponslogo4" ><img src="sponsimg/indian.png"/></div>
+	<div class="sponslogo5" ><img src="sponsimg/2019.png"/></div>
+	<div class="sponslogo6" ><img src="sponsimg/alstrut.jpg"/></div>
+	<div class="sponslogo7" ><img src="sponsimg/expertshub.jpg"/></div>
+	<div class="sponslogo8" ><img src="sponsimg/robospons.png"/></div>
+	<div class="sponslogo9" ><img src="sponsimg/mmfestlogo.jpg"/></div>
+	<div class="sponslogo10" ><img src="sponsimg/solidworks.png"/></div>
+
+</div>
+<div class="animated hidden fadeOutDownBig contact">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="animated hidden fadeOutDownBig about">
+	
+
+
+</div>
+				
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>		
+	
+		<script>
+			
+			$(".ccounter").ccountdown(2015,03,12,'00:00');
+			var previous="home";
+function goto(event)
+{
+
+	if(previous!=event)
+	{
+		
+			
+	 $('#'+event).children().addClass('active');
+	 $('#'+previous).children().removeClass('active');
+	 $('.'+previous).toggleClass('hidden');	
+	 $('.'+previous).toggleClass("fadeOutDownBig");	
+	 $('.'+previous).removeClass('fadeInDownBig');
+     $('.'+event).addClass("fadeInDownBig");
+	 $('.'+event).toggleClass("fadeOutDownBig");
+	 $('.'+event).toggleClass('hidden');
+	 if(event=='contact')
+		{
+			$('#googleMap').css({'display':'block','opacity':'1'});
+		}
+		else $('#googleMap').css({'display':'none','opacity':'1'});
+	 previous=event;
+	}
+		}
+		</script>
+		<script>
+var myCenter=new google.maps.LatLng(12.99074478,80.23072655);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:17,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"<span style='color:red'>MSB</span>"
+  });
+
+infowindow.open(map,marker);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+	
+/*
+$.fn.clicktoggle = function(a, b) {
+    return this.each(function() {
+        var clicked = false;
+        $(this).click(function() {
+            if (clicked) {
+                clicked = false;
+                return b.apply(this, arguments);
+            }
+            clicked = true;
+            return a.apply(this, arguments);
+        });
+    });
+};
+
+$( ".drop" ).clicktoggle(
+      function(){
+      $('.ribbon>a').slideUp(500);
+      },
+      function(){
+       $('.ribbon>a').slideDown(500);
+      }
+  );  */
+$('ul.form li a').click(
+			function(e) {
+				e.preventDefault(); // prevent the default action
+				e.stopPropagation; // stop the click from bubbling
+				$(this).closest('ul').find('.selected').removeClass('selected');
+				$(this).parent().addClass('selected');
+			});
+
+</script>
+	</body>
+</html>

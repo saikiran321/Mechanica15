@@ -11,47 +11,112 @@
 	<!-- styles-->
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/anim.css">
 
 </head>
 	<body>
 
 	<img src="img/blue.jpg" style="width:100%;height:100%;position:absolute;z-index:-1"/>
-	<navbar>
-	<div id="googleMap" ></div>
+	<navbar class="navbar">
+	<div id="googleMap" style="position: absolute;
+height:50%;display:block;top:35%;opacity:0"></div>
+<!--	<div class="drop ribbon">Menu</div>
 	<div class='ribbon' id="firstset">
     <a href='#' id="" onclick=goto('home')><span id="option1">Home</span></a>
     <a href='#events' id="events" onclick=goto('events')><span id="option2">Events</span></a>
-    <a href='#spons'  id="sponsors" onclick=goto('sponsors')><span id="option3">Sponsors</span></a>
+   
 
-	</div>
-	 
-<div class='ribbon' id="secondset">
-    <a  id="chevron"></a>
+     <a href='#spons'  id="sponsors" onclick=goto('sponsors')><span id="option3">Sponsors</span></a>
     <a href='#contact' id="contact" onclick=goto('contact')><span id="option4">Contact</span></a>
-    <a href='#about' id="about" onclick=goto('about')><span id="option5">About</span></a>
-</div>
+   <a href='#about' id="about" onclick=goto('about')><span id="option5">About</span></a>
+
+</div>-->
 		
 	</navbar>
+	<ul class="form">
+	 <li><a href='#' id="" onclick=goto('home')><span id="option1">Home</span></a></li>
+    <li> <a href='#events' id="events" onclick=goto('events')><span id="option2">Events</span></a></li>
+   
+
+     <li> <a href='#spons'  id="sponsors" onclick=goto('sponsors')><span id="option3">Sponsors</span></a></li>
+    <li> <a href='#contact' id="contact" onclick=goto('contact')><span id="option4">Contact</span></a></li>
+  <li> <a href='#about' id="about" onclick=goto('about')><span id="option5">About</span></a></li>
+
+			</ul>
+	<div>
 		
-<div class="logo"><img src="img/logo.png" style="width:100%;height:100%"></div>
+		<div id="level">
+		<div id="content">
+			<div id="gears">
+				<div id="gears-static"></div>
+				<div id="gear-system-1">
+					<div class="shadow" id="shadow15"></div>
+					<div id="gear15"></div>
+					<div class="shadow" id="shadow14"></div>
+					<div id="gear14"></div>
+					<div class="shadow" id="shadow13"></div>
+					<div id="gear13"></div>
+				</div>
+				<div id="gear-system-2">
+					<div class="shadow" id="shadow10"></div>
+					<div id="gear10"></div>
+					<div class="shadow" id="shadow3"></div>
+					<div id="gear3"></div>
+				</div>
+				<div id="gear-system-3">
+					<div class="shadow" id="shadow9"></div>
+					<div id="gear9"></div>
+					<div class="shadow" id="shadow7"></div>
+					<div id="gear7"></div>
+				</div>
+				<div id="gear-system-4">
+					<div class="shadow" id="shadow6"></div>
+					<div id="gear6"></div>
+					<div id="gear4"></div>
+				</div>
+				<div id="gear-system-5">
+					<div class="shadow" id="shadow12"></div>
+					<div id="gear12"></div>
+					<div class="shadow" id="shadow11"></div>
+					<div id="gear11"></div>
+					<div class="shadow" id="shadow8"></div>
+					<div id="gear8"></div>
+				</div>
+				<div class="shadow" id="shadow1"></div>
+				<div id="gear1"></div>
+				<div id="gear-system-6">
+					<div class="shadow" id="shadow5"></div>
+					<div id="gear5"></div>
+					<div id="gear2"></div>
+				</div>
+				<div class="shadow" id="shadowweight"></div>
+				<div id="chain-circle"></div>
+				<div id="chain"></div>
+				<div id="weight"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+		
+<div class="logo"><img src="img/logo.png" style="width:80%"></div>
 							
 							<div class="countdown">
 								<div class="ccounter">
 								 <ul class="row count-down">                       
         <li class="col-md-3 col-sm-6">   
-          <input class="knob days" data-readonly=true data-min="0" data-max="365" data-width="150" data-height="150" data-thickness="0.07" data-fgcolor="#34aadc" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <input class="knob days" data-readonly=true data-min="0" data-max="365" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#34aadc" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
           <span id="days-title" class="clock">Days</span>
         </li>    
         <li class="col-md-3 col-sm-6"> 
-          <input class="knob hour" data-readonly=true data-min="0" data-max="24" data-width="150" data-height="150" data-thickness="0.07" data-fgcolor="#4cd964" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <input class="knob hour" data-readonly=true data-min="0" data-max="24" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#4cd964" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
           <span id="hours-title" class="clock">Hours</span>
         </li>    
         <li class="col-md-3 col-sm-6"> 
-          <input class="knob minute" data-readonly=true data-min="0" data-max="200" data-width="150" data-height="150" data-thickness="0.07" data-fgcolor="#ff9500" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <input class="knob minute" data-readonly=true data-min="0" data-max="200" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#ff9500" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
           <span id="mins-title" class="clock">Minutes</span>
         </li>    
         <li class="col-md-3 col-sm-6"> 
-          <input class="knob second" data-readonly=true data-min="0" data-max="60" data-width="150" data-height="150" data-thickness="0.07" data-fgcolor="#ff3b30" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
+          <input class="knob second" data-readonly=true data-min="0" data-max="60" data-width="100" data-height="100" data-thickness="0.07" data-fgcolor="#ff3b30" data-bgColor="#e1e2e6" data-angleOffset="180" data-skin="tron">
           <span id="secs-title" class="clock">Seconds</span>
         </li>                
       </ul>        
@@ -69,7 +134,8 @@
 </div>
 
 <div class="animated hidden fadeOutDownBig sponsors">
-	
+<div><img src="img/sponsors.png" style="width:80%;left:10%;position:relative"></div>
+
 	<div class="sponslogo1" ><img src="sponsimg/harshaes.jpg"/></div >
 	<div class="sponslogo2" ><img src="sponsimg/AVOCarbon.jpg"/></div>
 	<div class="sponslogo3" ><img src="sponsimg/lg.jpg"/></div>
@@ -81,7 +147,7 @@
 	<div class="sponslogo9" ><img src="sponsimg/mmfestlogo.jpg"/></div>
 	<div class="sponslogo10" ><img src="sponsimg/solidworks.png"/></div>
 
-</div></div>
+</div>
 <div class="animated hidden fadeOutDownBig contact">
 	
 
@@ -164,175 +230,39 @@ infowindow.open(map,marker);
 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-<script src="http://threejs.org/build/three.min.js"></script>
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-
 <script>
+	
+/*
+$.fn.clicktoggle = function(a, b) {
+    return this.each(function() {
+        var clicked = false;
+        $(this).click(function() {
+            if (clicked) {
+                clicked = false;
+                return b.apply(this, arguments);
+            }
+            clicked = true;
+            return a.apply(this, arguments);
+        });
+    });
+};
 
-			var container, stats;
-			var camera, scene, raycaster, renderer, parentTransform, sphereInter;
+$( ".drop" ).clicktoggle(
+      function(){
+      $('.ribbon>a').slideUp(500);
+      },
+      function(){
+       $('.ribbon>a').slideDown(500);
+      }
+  );  */
+$('ul.form li a').click(
+			function(e) {
+				e.preventDefault(); // prevent the default action
+				e.stopPropagation; // stop the click from bubbling
+				$(this).closest('ul').find('.selected').removeClass('selected');
+				$(this).parent().addClass('selected');
+			});
 
-			var mouse = new THREE.Vector2();
-			var radius = 100, theta = 0;
-
-			var currentIntersected;
-
-			init();
-			animate();
-
-			function init() {
-
-				container = document.createElement( 'div' );
-				document.body.appendChild( container );
-
-				var info = document.createElement( 'div' );
-				info.style.position = 'absolute';
-				info.style.top = '10px';
-				info.style.width = '100%';
-				info.style.textAlign = 'center';
-				
-				
-
-				camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 10000 );
-
-				scene = new THREE.Scene();
-
-				var geometry = new THREE.SphereGeometry( 5 );
-				var material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
-				var geometry = new THREE.Geometry();
-				var point = new THREE.Vector3();
-				var direction = new THREE.Vector3();
-				for ( var i = 0; i < 50; i ++ ) {
-
-					direction.x += Math.random() - 0.5;
-					direction.y += Math.random() - 0.5;
-					direction.z += Math.random() - 0.5;
-					direction.normalize().multiplyScalar( 10 );
-
-					point.add( direction );
-
-					geometry.vertices.push( point.clone() );
-
-				}
-
-				parentTransform = new THREE.Object3D();
-				parentTransform.position.x = Math.random() * 40 - 20;
-				parentTransform.position.y = Math.random() * 40 - 20;
-				parentTransform.position.z = Math.random() * 40 - 20;
-
-				parentTransform.rotation.x = Math.random() * 2 * Math.PI;
-				parentTransform.rotation.y = Math.random() * 2 * Math.PI;
-				parentTransform.rotation.z = Math.random() * 2 * Math.PI;
-
-				parentTransform.scale.x = Math.random() + 0.5;
-				parentTransform.scale.y = Math.random() + 0.5;
-				parentTransform.scale.z = Math.random() + 0.5;
-
-				for ( var i = 0; i < 50; i ++ ) {
-
-					var type = Math.random() > 0.5 ? THREE.LineStrip : THREE.LinePieces;
-					var object = new THREE.Line( geometry, new THREE.LineBasicMaterial( { color: Math.random() * 0xffffff } ), type );
-
-					object.position.x = Math.random() * 400 - 200;
-					object.position.y = Math.random() * 400 - 200;
-					object.position.z = Math.random() * 400 - 200;
-
-					object.rotation.x = Math.random() * 2 * Math.PI;
-					object.rotation.y = Math.random() * 2 * Math.PI;
-					object.rotation.z = Math.random() * 2 * Math.PI;
-
-					object.scale.x = Math.random() + 0.5;
-					object.scale.y = Math.random() + 0.5;
-					object.scale.z = Math.random() + 0.5;
-
-					parentTransform.add( object );
-
-				}
-
-				scene.add( parentTransform );
-
-				raycaster = new THREE.Raycaster();
-				raycaster.linePrecision = 1;
-
-				renderer = new THREE.WebGLRenderer( { alpha: true } );
-				//var renderer = new THREE.WebGLRenderer( { alpha: true } );
-				renderer.setClearColor( 0x000000, 0  );
-				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth, window.innerHeight );
-				container.appendChild(renderer.domElement);
-
-
-				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-
-				//
-
-				window.addEventListener( 'resize', onWindowResize, false );
-
-			}
-
-			function onWindowResize() {
-
-				camera.aspect = window.innerWidth / window.innerHeight;
-				camera.updateProjectionMatrix();
-
-				renderer.setSize( window.innerWidth, window.innerHeight );
-
-			}
-
-			function onDocumentMouseMove( event ) {
-
-//				event.preventDefault();
-
-//				mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-//				mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-
-			}
-
-			//
-
-			function animate() {
-
-				requestAnimationFrame( animate );
-
-				render();
-				
-
-			}
-
-			function render() {
-
-				theta += 0.1;
-
-				camera.position.x = radius * Math.sin( THREE.Math.degToRad( theta ) );
-				camera.position.y = radius * Math.sin( THREE.Math.degToRad( theta ) );
-				camera.position.z = radius * Math.cos( THREE.Math.degToRad( theta ) );
-				camera.lookAt( scene.position );
-				camera.updateMatrixWorld();
-				// find intersections
-				raycaster.setFromCamera( mouse, camera );
-				var intersects = raycaster.intersectObjects( parentTransform.children, true);
-				if ( intersects.length > 0 ) {
-					if ( currentIntersected !== undefined ) {
-						currentIntersected.material.linewidth = 1;
-					}
-					currentIntersected = intersects[ 0 ].object;
-					currentIntersected.material.linewidth = 5;
-					//sphereInter.visible = true;
-					//sphereInter.position.copy( intersects[ 0 ].point );
-				} else {
-					if ( currentIntersected !== undefined ) {
-						currentIntersected.material.linewidth = 1;
-					}
-					currentIntersected = undefined;
-					//sphereInter.visible = false;
-
-				}
-
-				renderer.render( scene, camera );
-
-			}
-
-		</script>
-
+</script>
 	</body>
 </html>
